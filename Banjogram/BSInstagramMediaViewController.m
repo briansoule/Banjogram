@@ -50,6 +50,8 @@ NSString *kCellID = @"InstagramPreviewCellIdentifier";
 
 -(void)viewWillAppear:(BOOL)animated{
        self.navigationController.navigationBar.tintColor = [UIColor grayColor];
+       
+       self.navigationItem.title = @"Photos";
 }
 
 -(void)applyData:(NSNotification *) notification{
